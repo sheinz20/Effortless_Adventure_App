@@ -20,6 +20,7 @@ struct PagesRow: View {
                 .font(.largeTitle)
             
             Spacer()
+            
         }
     }
 }

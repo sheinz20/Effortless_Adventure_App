@@ -9,8 +9,10 @@ import Foundation
 import SwiftUI
 
 struct AdventureImage: View {
+    var image: Image
+    
     var body: some View {
-        Image("adventures")
+        image
             .resizable()
             .clipShape(Rectangle())
             .frame(width: 400, height: 200)
@@ -21,6 +23,6 @@ struct AdventureImage: View {
 
 struct AdventureImage_Previews: PreviewProvider {
     static var previews: some View {
-        AdventureImage()
+        AdventureImage(image: Image("adventures"))
     }
 }

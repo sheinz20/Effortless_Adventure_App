@@ -9,20 +9,31 @@ import Foundation
 import SwiftUI
 
 struct PagesDetail: View {
+    var pages: Pages
+    
     var body: some View {
-        VStack {
-            AdventureImage()
-                .offset(y: -300)
-            //Spacer()
-            Text("Choose an Adventure")
-                .font(.title)
-                .offset(y:-280)
+        ScrollView {
+            AdventureImage(image: pages.image)
+                .padding(.bottom)
+            
+            VStack(alignment: .leading) {
+                Text(pages.pageHeader)
+                    .font(.title)
+            
+                Divider()
+                
+                Text(pages.description)
+                  
+            }
+                
         }
+        .navigationTitle(pages.name)
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
 struct PagesDetail_Previews: PreviewProvider {
     static var previews: some View {
-        PagesDetail()
+        PagesDetail(pages: pages[0])
     }
 }

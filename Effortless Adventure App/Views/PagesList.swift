@@ -13,7 +13,7 @@ struct PagesList: View {
         NavigationView {
             List(pages) { pages in
                 NavigationLink {
-                    PagesDetail()
+                    PagesDetail(pages: pages)
                 } label: {
                     PagesRow(pages: pages)
                 }
@@ -23,7 +23,9 @@ struct PagesList: View {
     }
 }
 
+
 struct PagesList_Previews: PreviewProvider {
-    static var previews: some View { PagesList()
+    static var previews: some View {
+        PagesList()
     }
 }
