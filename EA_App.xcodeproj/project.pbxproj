@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C078A2AF2914286300D9E59E /* OpenPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C078A2AE2914286300D9E59E /* OpenPage.swift */; };
+		C078A2B1291428C900D9E59E /* LogoImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D19FA528F8D1B300C202D4 /* LogoImage.swift */; };
+		C078A2B32914880500D9E59E /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C078A2B22914880500D9E59E /* HomeScreen.swift */; };
+		C0CBEE192937DED800625D98 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0CBEE182937DED800625D98 /* Launch Screen.storyboard */; };
+		C0D19F7C28F8C66300C202D4 /* Effortless_Adventure_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D19F7B28F8C66300C202D4 /* Effortless_Adventure_AppApp.swift */; };
+		C0D19F7E28F8C66300C202D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D19F7D28F8C66300C202D4 /* ContentView.swift */; };
+		C0D19F8028F8C66500C202D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0D19F7F28F8C66500C202D4 /* Assets.xcassets */; };
+		C0D19F8328F8C66500C202D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0D19F8228F8C66500C202D4 /* Preview Assets.xcassets */; };
+		C0D19F8D28F8C66500C202D4 /* Effortless_Adventure_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D19F8C28F8C66500C202D4 /* Effortless_Adventure_AppTests.swift */; };
+		C0D19F9728F8C66600C202D4 /* Effortless_Adventure_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D19F9628F8C66600C202D4 /* Effortless_Adventure_AppUITests.swift */; };
+		C0D19F9928F8C66600C202D4 /* Effortless_Adventure_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D19F9828F8C66600C202D4 /* Effortless_Adventure_AppUITestsLaunchTests.swift */; };
+		C0D19FA828FEDC1500C202D4 /* EAcolors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D19FA728FEDC1500C202D4 /* EAcolors.swift */; };
+		C0F1680329380F6200037E1E /* Pages_Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F1680229380F6200037E1E /* Pages_Stack.swift */; };
+		C0F16809293815FE00037E1E /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F16808293815FE00037E1E /* ModelData.swift */; };
+		C0F1680E29381A0B00037E1E /* PagesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F1680D29381A0B00037E1E /* PagesRow.swift */; };
+		C0F16812293822D100037E1E /* PageData.json in Resources */ = {isa = PBXBuildFile; fileRef = C0F16811293822D100037E1E /* PageData.json */; };
+		C0F1681429382DE500037E1E /* PagesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F1681329382DE500037E1E /* PagesList.swift */; };
+		C0F16816293830E600037E1E /* PagesDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F16815293830E600037E1E /* PagesDetail.swift */; };
+		C0F16818293833EF00037E1E /* AdventureImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F16817293833EF00037E1E /* AdventureImage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0D19F8928F8C66500C202D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0D19F7028F8C66300C202D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0D19F7728F8C66300C202D4;
+			remoteInfo = "Effortless Adventure App";
+		};
+		C0D19F9328F8C66600C202D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0D19F7028F8C66300C202D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0D19F7728F8C66300C202D4;
+			remoteInfo = "Effortless Adventure App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C078A2AE2914286300D9E59E /* OpenPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenPage.swift; sourceTree = "<group>"; };
+		C078A2B22914880500D9E59E /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		C0CBEE182937DED800625D98 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		C0D19F7828F8C66300C202D4 /* Effortless Adventure App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Effortless Adventure App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0D19F7B28F8C66300C202D4 /* Effortless_Adventure_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Effortless_Adventure_AppApp.swift; sourceTree = "<group>"; };
+		C0D19F7D28F8C66300C202D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C0D19F7F28F8C66500C202D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0D19F8228F8C66500C202D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C0D19F8828F8C66500C202D4 /* Effortless Adventure AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Effortless Adventure AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0D19F8C28F8C66500C202D4 /* Effortless_Adventure_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Effortless_Adventure_AppTests.swift; sourceTree = "<group>"; };
+		C0D19F9228F8C66600C202D4 /* Effortless Adventure AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Effortless Adventure AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0D19F9628F8C66600C202D4 /* Effortless_Adventure_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Effortless_Adventure_AppUITests.swift; sourceTree = "<group>"; };
+		C0D19F9828F8C66600C202D4 /* Effortless_Adventure_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Effortless_Adventure_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C0D19FA528F8D1B300C202D4 /* LogoImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoImage.swift; sourceTree = "<group>"; };
+		C0D19FA728FEDC1500C202D4 /* EAcolors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EAcolors.swift; sourceTree = "<group>"; };
+		C0F1680229380F6200037E1E /* Pages_Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pages_Stack.swift; sourceTree = "<group>"; };
+		C0F16808293815FE00037E1E /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		C0F1680D29381A0B00037E1E /* PagesRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagesRow.swift; sourceTree = "<group>"; };
+		C0F16811293822D100037E1E /* PageData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PageData.json; sourceTree = "<group>"; };
+		C0F1681329382DE500037E1E /* PagesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagesList.swift; sourceTree = "<group>"; };
+		C0F16815293830E600037E1E /* PagesDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagesDetail.swift; sourceTree = "<group>"; };
+		C0F16817293833EF00037E1E /* AdventureImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventureImage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0D19F7528F8C66300C202D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0D19F8528F8C66500C202D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0D19F8F28F8C66600C202D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0D19F6F28F8C66300C202D4 = {
+			isa = PBXGroup;
+			children = (
+				C0D19F7A28F8C66300C202D4 /* Effortless Adventure App */,
+				C0D19F8B28F8C66500C202D4 /* Effortless Adventure AppTests */,
+				C0D19F9528F8C66600C202D4 /* Effortless Adventure AppUITests */,
+				C0D19F7928F8C66300C202D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0D19F7928F8C66300C202D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0D19F7828F8C66300C202D4 /* Effortless Adventure App.app */,
+				C0D19F8828F8C66500C202D4 /* Effortless Adventure AppTests.xctest */,
+				C0D19F9228F8C66600C202D4 /* Effortless Adventure AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0D19F7A28F8C66300C202D4 /* Effortless Adventure App */ = {
+			isa = PBXGroup;
+			children = (
+				C0F1680C2938195100037E1E /* Resources */,
+				C0F1680B2938194B00037E1E /* Model */,
+				C0F1680A2938194300037E1E /* Views */,
+				C0D19F7F28F8C66500C202D4 /* Assets.xcassets */,
+				C078A2B22914880500D9E59E /* HomeScreen.swift */,
+				C078A2AE2914286300D9E59E /* OpenPage.swift */,
+				C0CBEE182937DED800625D98 /* Launch Screen.storyboard */,
+				C0D19F8128F8C66500C202D4 /* Preview Content */,
+			);
+			path = "Effortless Adventure App";
+			sourceTree = "<group>";
+		};
+		C0D19F8128F8C66500C202D4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C0D19F8228F8C66500C202D4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C0D19F8B28F8C66500C202D4 /* Effortless Adventure AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0D19F8C28F8C66500C202D4 /* Effortless_Adventure_AppTests.swift */,
+			);
+			path = "Effortless Adventure AppTests";
+			sourceTree = "<group>";
+		};
+		C0D19F9528F8C66600C202D4 /* Effortless Adventure AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C0D19F9628F8C66600C202D4 /* Effortless_Adventure_AppUITests.swift */,
+				C0D19F9828F8C66600C202D4 /* Effortless_Adventure_AppUITestsLaunchTests.swift */,
+			);
+			path = "Effortless Adventure AppUITests";
+			sourceTree = "<group>";
+		};
+		C0F1680A2938194300037E1E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C0D19F7D28F8C66300C202D4 /* ContentView.swift */,
+				C0D19F7B28F8C66300C202D4 /* Effortless_Adventure_AppApp.swift */,
+				C0D19FA528F8D1B300C202D4 /* LogoImage.swift */,
+				C0D19FA728FEDC1500C202D4 /* EAcolors.swift */,
+				C0F1680D29381A0B00037E1E /* PagesRow.swift */,
+				C0F1681329382DE500037E1E /* PagesList.swift */,
+				C0F16815293830E600037E1E /* PagesDetail.swift */,
+				C0F16817293833EF00037E1E /* AdventureImage.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C0F1680B2938194B00037E1E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C0F16808293815FE00037E1E /* ModelData.swift */,
+				C0F1680229380F6200037E1E /* Pages_Stack.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C0F1680C2938195100037E1E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C0F16811293822D100037E1E /* PageData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0D19F7728F8C66300C202D4 /* Effortless Adventure App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0D19F9C28F8C66600C202D4 /* Build configuration list for PBXNativeTarget "Effortless Adventure App" */;
+			buildPhases = (
+				C0D19F7428F8C66300C202D4 /* Sources */,
+				C0D19F7528F8C66300C202D4 /* Frameworks */,
+				C0D19F7628F8C66300C202D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Effortless Adventure App";
+			productName = "Effortless Adventure App";
+			productReference = C0D19F7828F8C66300C202D4 /* Effortless Adventure App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0D19F8728F8C66500C202D4 /* Effortless Adventure AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0D19F9F28F8C66600C202D4 /* Build configuration list for PBXNativeTarget "Effortless Adventure AppTests" */;
+			buildPhases = (
+				C0D19F8428F8C66500C202D4 /* Sources */,
+				C0D19F8528F8C66500C202D4 /* Frameworks */,
+				C0D19F8628F8C66500C202D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0D19F8A28F8C66500C202D4 /* PBXTargetDependency */,
+			);
+			name = "Effortless Adventure AppTests";
+			productName = "Effortless Adventure AppTests";
+			productReference = C0D19F8828F8C66500C202D4 /* Effortless Adventure AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C0D19F9128F8C66600C202D4 /* Effortless Adventure AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0D19FA228F8C66600C202D4 /* Build configuration list for PBXNativeTarget "Effortless Adventure AppUITests" */;
+			buildPhases = (
+				C0D19F8E28F8C66600C202D4 /* Sources */,
+				C0D19F8F28F8C66600C202D4 /* Frameworks */,
+				C0D19F9028F8C66600C202D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0D19F9428F8C66600C202D4 /* PBXTargetDependency */,
+			);
+			name = "Effortless Adventure AppUITests";
+			productName = "Effortless Adventure AppUITests";
+			productReference = C0D19F9228F8C66600C202D4 /* Effortless Adventure AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0D19F7028F8C66300C202D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					C0D19F7728F8C66300C202D4 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					C0D19F8728F8C66500C202D4 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = C0D19F7728F8C66300C202D4;
+					};
+					C0D19F9128F8C66600C202D4 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = C0D19F7728F8C66300C202D4;
+					};
+				};
+			};
+			buildConfigurationList = C0D19F7328F8C66300C202D4 /* Build configuration list for PBXProject "EA_App" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0D19F6F28F8C66300C202D4;
+			productRefGroup = C0D19F7928F8C66300C202D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0D19F7728F8C66300C202D4 /* Effortless Adventure App */,
+				C0D19F8728F8C66500C202D4 /* Effortless Adventure AppTests */,
+				C0D19F9128F8C66600C202D4 /* Effortless Adventure AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0D19F7628F8C66300C202D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F16812293822D100037E1E /* PageData.json in Resources */,
+				C0CBEE192937DED800625D98 /* Launch Screen.storyboard in Resources */,
+				C0D19F8328F8C66500C202D4 /* Preview Assets.xcassets in Resources */,
+				C0D19F8028F8C66500C202D4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0D19F8628F8C66500C202D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0D19F9028F8C66600C202D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0D19F7428F8C66300C202D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F16818293833EF00037E1E /* AdventureImage.swift in Sources */,
+				C0D19FA828FEDC1500C202D4 /* EAcolors.swift in Sources */,
+				C0D19F7E28F8C66300C202D4 /* ContentView.swift in Sources */,
+				C0F1681429382DE500037E1E /* PagesList.swift in Sources */,
+				C0F1680E29381A0B00037E1E /* PagesRow.swift in Sources */,
+				C0F1680329380F6200037E1E /* Pages_Stack.swift in Sources */,
+				C078A2B32914880500D9E59E /* HomeScreen.swift in Sources */,
+				C078A2B1291428C900D9E59E /* LogoImage.swift in Sources */,
+				C0F16809293815FE00037E1E /* ModelData.swift in Sources */,
+				C0D19F7C28F8C66300C202D4 /* Effortless_Adventure_AppApp.swift in Sources */,
+				C0F16816293830E600037E1E /* PagesDetail.swift in Sources */,
+				C078A2AF2914286300D9E59E /* OpenPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0D19F8428F8C66500C202D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0D19F8D28F8C66500C202D4 /* Effortless_Adventure_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0D19F8E28F8C66600C202D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0D19F9928F8C66600C202D4 /* Effortless_Adventure_AppUITestsLaunchTests.swift in Sources */,
+				C0D19F9728F8C66600C202D4 /* Effortless_Adventure_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0D19F8A28F8C66500C202D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0D19F7728F8C66300C202D4 /* Effortless Adventure App */;
+			targetProxy = C0D19F8928F8C66500C202D4 /* PBXContainerItemProxy */;
+		};
+		C0D19F9428F8C66600C202D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0D19F7728F8C66300C202D4 /* Effortless Adventure App */;
+			targetProxy = C0D19F9328F8C66600C202D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C0D19F9A28F8C66600C202D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0D19F9B28F8C66600C202D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0D19F9D28F8C66600C202D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Effortless Adventure App/Preview Content\"";
+				DEVELOPMENT_TEAM = 29WQLXLW8H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.EffortlessAdventure.Effortless-Adventure-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0D19F9E28F8C66600C202D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Effortless Adventure App/Preview Content\"";
+				DEVELOPMENT_TEAM = 29WQLXLW8H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.EffortlessAdventure.Effortless-Adventure-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C0D19FA028F8C66600C202D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.EffortlessAdventure.Effortless-Adventure-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Effortless Adventure App.app/Effortless Adventure App";
+			};
+			name = Debug;
+		};
+		C0D19FA128F8C66600C202D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.EffortlessAdventure.Effortless-Adventure-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Effortless Adventure App.app/Effortless Adventure App";
+			};
+			name = Release;
+		};
+		C0D19FA328F8C66600C202D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.EffortlessAdventure.Effortless-Adventure-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Effortless Adventure App";
+			};
+			name = Debug;
+		};
+		C0D19FA428F8C66600C202D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.EffortlessAdventure.Effortless-Adventure-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Effortless Adventure App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0D19F7328F8C66300C202D4 /* Build configuration list for PBXProject "EA_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0D19F9A28F8C66600C202D4 /* Debug */,
+				C0D19F9B28F8C66600C202D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0D19F9C28F8C66600C202D4 /* Build configuration list for PBXNativeTarget "Effortless Adventure App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0D19F9D28F8C66600C202D4 /* Debug */,
+				C0D19F9E28F8C66600C202D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0D19F9F28F8C66600C202D4 /* Build configuration list for PBXNativeTarget "Effortless Adventure AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0D19FA028F8C66600C202D4 /* Debug */,
+				C0D19FA128F8C66600C202D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0D19FA228F8C66600C202D4 /* Build configuration list for PBXNativeTarget "Effortless Adventure AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0D19FA328F8C66600C202D4 /* Debug */,
+				C0D19FA428F8C66600C202D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0D19F7028F8C66300C202D4 /* Project object */;
+}

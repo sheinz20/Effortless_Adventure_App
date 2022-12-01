@@ -1,0 +1,22 @@
+[
+    {
+        "id":1001,
+        "name":"Buy an Adventure",
+        "description": "Self Guided or Pro Guided",
+        "imageName":"adventures"
+    },
+    {
+        "id":1002,
+        "name":"Rent Equipment",
+        "description":"Packages including tents, sleeping gear, camp chairs, cooking equipment, etc.",
+        "imageName":"completePackage"
+    },
+    {
+        "id":1003,
+        "name":"Blog",
+        "description":"Journal entries, tips and tricks, safety guides",
+        "imageName":"blogPost"
+    }
+        
+]
+
